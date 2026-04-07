@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Data - Milan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>C Research Project Data</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Milan</a></li>
+            <li><a href="data.html" aria-current="page">Algorithm Data</a></li>
+            <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section>
+            <h2>Sorting Algorithm Performance Tracking</h2>
+            <p>The following table presents the initial timing data gathered from my C research project. The tests measure execution time for various sorting algorithms on arrays of 100,000 randomized integers.</p>
+            
+            <table>
+                <caption>Empirical execution time of sorting algorithms in C (N = 100,000).</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Algorithm</th>
+                        <th scope="col">Time Complexity (Avg)</th>
+                        <th scope="col">Tracked Time (ms)</th>
+                        <th scope="col">Memory Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Quick Sort</th>
+                        <td>O(n log n)</td>
+                        <td>12.4</td>
+                        <td>In-place</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Merge Sort</th>
+                        <td>O(n log n)</td>
+                        <td>15.8</td>
+                        <td>O(n)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Insertion Sort</th>
+                        <td>O(n²)</td>
+                        <td>2450.2</td>
+                        <td>In-place</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bubble Sort</th>
+                        <td>O(n²)</td>
+                        <td>7890.5</td>
+                        <td>In-place</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Milan. Built for UVT Web Development Course.</p>
+    </footer>
+</body>
+</html>
