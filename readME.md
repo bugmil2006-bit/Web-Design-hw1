@@ -16,6 +16,5 @@ This is a mini-project for the UVT Web Development course (Labs 1-4, Lectures 1-
 ## Known Limitations
 - The contact form is UI-only and does not process data via a backend. Action is currently set to `action="#"`.
 
-## Generative AI Transparency Declaration (UVT Policy)
-*Please update this section before submitting to comply with your course's specific transparency model. Example:*
-"I used an AI assistant to generate the baseline HTML structure and CSS styling for this assignment, tailored to my specific research and startup data. I have reviewed, understood, and tested all code provided to ensure it complies with the specific assignment requirements such as HTML validation and accessible DOM structure."
+Live website
+https://bugmil2006-bit.github.io/Web-Design-hw1/
