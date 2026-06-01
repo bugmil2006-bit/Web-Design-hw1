@@ -1,0 +1,22 @@
+Paragraph A ("Paragraph A")
+- Matched by the `p` selector.
+- Specificity: 0, 0, 1
+- Visual Result: Gray text, Georgia font, 1rem size.
+
+Paragraph B ("Paragraph B")
+- Matched by the `p` selector (0,0,1) and the `.info` class selector (0,1,0).
+- Winning Selector: `.info` wins because a class has a higher weight than an element.
+- Specificity: 0, 1, 0
+- Visual Result: Steelblue text, Arial font, 1.25rem size, light blue background with a left border.
+
+Paragraph C ("Paragraph C")
+- Matched by the `p` selector (0,0,1) and the `#warning` ID selector (1,0,0).
+- Winning Selector: `#warning` wins because an ID has a higher weight than a class or element.
+- Specificity: 1, 0, 0
+- Visual Result: Darkred text, Courier New font, dashed border, uppercase styling.
+
+Paragraph D ("Paragraph D")
+- Matched by `p` (0,0,1), `.info` (0,1,0), `#warning` (1,0,0), and `#warning.info` (1,1,0).
+- Winning Selector: `#warning.info` wins because it combines both an ID and a Class, resulting in the highest specificity in the stylesheet.
+- Specificity: 1, 1, 0
+- Visual Result: Darkorange text, solid darkorange border, normal font style.

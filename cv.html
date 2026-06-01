@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV & Project Upload - Milan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <h1>Project Portfolio Management</h1>
+        <p>Dynamically log new AI benchmarks and Dirt Park phases.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Milan</a></li>
+            <li><a href="data.html">Algorithm Data</a></li>
+            <li><a href="overview.html">Project Overview</a></li>
+            <li><a href="card.html">Digital Card</a></li>
+            <li><a href="chatbot.html">AI Assistant</a></li>
+            <li><a href="cv.html" aria-current="page">CV & Portfolio</a></li>
+            <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="form-section">
+            <h2>Add a New Project</h2>
+            <form id="portfolio-form" novalidate>
+                <fieldset>
+                    <legend>Project Details</legend>
+
+                    <div class="form-group">
+                        <label for="proj-name">Project Name (Required)</label>
+                        <input type="text" id="proj-name" name="proj-name" aria-describedby="name-error">
+                        <span id="name-error" class="error-message" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="proj-desc">Description (Required)</label>
+                        <textarea id="proj-desc" name="proj-desc" rows="3" aria-describedby="desc-error"></textarea>
+                        <span id="desc-error" class="error-message" role="alert"></span>
+                    </div>
+
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="proj-url">Repository / Live URL</label>
+                            <input type="url" id="proj-url" name="proj-url" placeholder="https://..." aria-describedby="url-error">
+                            <span id="url-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="proj-date">Completion Date</label>
+                            <input type="date" id="proj-date" name="proj-date" aria-describedby="date-error">
+                            <span id="date-error" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="proj-tech">Core Technology</label>
+                            <select id="proj-tech" name="proj-tech" aria-describedby="tech-error">
+                                <option value="">Select a technology...</option>
+                                <option value="C / Algorithms">C / Algorithms</option>
+                                <option value="Python / AI">Python / AI</option>
+                                <option value="Web (HTML/CSS/JS)">Web (HTML/CSS/JS)</option>
+                                <option value="Physical Build">Physical Build / Trail</option>
+                            </select>
+                            <span id="tech-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="proj-img">Thumbnail Image URL</label>
+                            <input type="url" id="proj-img" name="proj-img" placeholder="https://.../image.jpg" aria-describedby="img-error">
+                            <span id="img-error" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Add Project</button>
+                        <button type="reset" class="btn-secondary">Reset Form</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="table-section">
+            <h2>Logged Projects</h2>
+            <div class="table-responsive">
+                <table id="projects-table">
+                    <caption>Dynamically updated list of submitted portfolio projects.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Thumbnail</th>
+                            <th scope="col">Project Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Tech</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody id="projects-tbody">
+                        </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Milan. Built for UVT Web Development Course.</p>
+    </footer>
+
+    <script src="cv.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+/* MacBook Pro 14" - 1 */
+
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1062px;
+height: 660px;
+left: 202px;
+top: 152px;
+
+background: #D9D9D9;
+border-radius: 58px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 323px;
+height: 47px;
+left: 289px;
+top: 467px;
+
+background: #AFADAD;
+border-radius: 20px;
+
+
+/* milan.bugarschi06@e-uvt.ro */
+
+position: absolute;
+width: 252px;
+height: 25px;
+left: 310px;
+top: 480px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* fundalLOGARE 1 */
+
+position: absolute;
+width: 532px;
+height: 660px;
+left: 732px;
+top: 152px;
+
+background: url(fundalLOGARE.png);
+border-radius: 0px 46px 46px 0px;
+
+
+/* LogoUVT 1 */
+
+position: absolute;
+width: 210px;
+height: 197px;
+left: 903px;
+top: 199px;
+
+background: url(LogoUVT.png);
+
+
+/* Authentification */
+
+position: absolute;
+width: 294px;
+height: 44px;
+left: 318px;
+top: 239px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+
+color: #416BB5;
+
+
+
+/* Service: Web design */
+
+position: absolute;
+width: 188px;
+height: 28px;
+left: 371px;
+top: 298px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Email */
+
+position: absolute;
+width: 103px;
+height: 28px;
+left: 285px;
+top: 422px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Password */
+
+position: absolute;
+width: 97px;
+height: 20px;
+left: 285px;
+top: 544px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Text on a path */
+
+position: absolute;
+width: 323px;
+height: 47px;
+left: 289px;
+top: 459px;
+
+background: #AFADAD;
+border-radius: 20px;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 323px;
+height: 47px;
+left: 285px;
+top: 584px;
+
+background: #B0AFAF;
+border-radius: 20px;
+
+
+/* ***************** */
+
+position: absolute;
+width: 171px;
+height: 25px;
+left: 306px;
+top: 602px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 23px;
+height: 21px;
+left: 294px;
+top: 690px;
+
+background: #3468C9;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 14.21px;
+height: 0px;
+left: 295px;
+top: 698px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(50.71deg);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 20px;
+height: 0px;
+left: 304px;
+top: 693px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(-53.13deg);
+
+
+/* Keep me signed in */
+
+position: absolute;
+width: 129px;
+height: 19px;
+left: 334px;
+top: 692px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Forgot Password */
+
+position: absolute;
+width: 122px;
+height: 16px;
+left: 503px;
+top: 690px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #D5C72D;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 200px;
+height: 41px;
+left: 351px;
+top: 728px;
+
+background: #A5942C;
+
+
+/* Authentification */
+
+position: absolute;
+width: 139px;
+height: 29px;
+left: 377px;
+top: 735px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+

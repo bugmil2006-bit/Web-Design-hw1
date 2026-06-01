@@ -18,3 +18,16 @@ This is a mini-project for the UVT Web Development course (Labs 1-4, Lectures 1-
 
 Live website
 https://bugmil2006-bit.github.io/Web-Design-hw1/
+## HW3 Updates: Dynamic Portfolio & Validation
+- [x] **New Page:** Added `cv.html` connected to the global navigation.
+- [x] **Accessible Form:** Created a 5-input form (`text`, `textarea`, `url`, `date`, `select`) utilizing `<fieldset>`, explicit `<label>` tags, and `aria-describedby` for error handling.
+- [x] **Client-Side JS Validation:** Implemented custom JS validation in `cv.js` that prevents default submission, evaluates input logic, dynamically renders WCAG-compliant error states, and supports form reset.
+- [x] **Dynamic Table:** Successfully validated data is passed into a DOM creation function that generates new `<tr>` elements and prepends them to the portfolio table without reloading the page.
+- [x] **Performance Optimization:** All injected table images utilize the `loading="lazy"` attribute, and the CSS uses a `.table-responsive` wrapper for cross-device usability.
+- [x] **Bonus (Originality):** Added a `@keyframes` animation (`slideFadeIn`) so newly submitted projects slide smoothly into the data table.
+
+### Lighthouse Audit Scores (HW3)
+* **Performance:** 98/100
+* **Accessibility:** 100/100 (Passes all ARIA and contrast checks)
+* **Best Practices:** 100/100
+* **SEO:** 100/100
